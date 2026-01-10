@@ -17,6 +17,12 @@
 - **Database:** ChromaDB (Vector Store)
 - **UI:** Streamlit
 
+## 🚧 Development Roadmap
+- [x] Initial Architecture Design
+- [ ] PDF Ingestion Pipeline Setup
+- [ ] Multi-Agent Logic Implementation (LangGraph)
+- [ ] UI/UX with Streamlit
+      
 ## 🏗 Architecture (Concept)
 ```mermaid
 graph LR
@@ -27,9 +33,3 @@ C --> E{Critic Agent}
 D --> E
 E -- High Confidence --> F[Final Answer]
 E -- Low Confidence --> G[Fallback / Retry]
-
-## 🚧 Development Roadmap
-- [x] Initial Architecture Design
-- [ ] PDF Ingestion Pipeline Setup
-- [ ] Multi-Agent Logic Implementation (LangGraph)
-- [ ] UI/UX with Streamlit
