@@ -17,7 +17,7 @@ This system features a secondary Critic Agent that evaluates the generated answe
 - **📄 PDF Ingestion:** Efficiently processes technical documents using FAISS vector search.
 
 ## 🖥️ Project Demo
-**Scenario:** Analyzing the [Self-RAG] paper.
+Analyzing the paper.
 The **Critic Agent** audits the answer and assigns a 9/10 Confidence Score based on the evidence.
 
 ![Demo Screenshot](./demo_screenshot.png)
